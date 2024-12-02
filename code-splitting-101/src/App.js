@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+import { useState, lazy, Suspense, Loading } from "react";
 
 import Page1 from "./components/Page1";
+const Page2 = lazy(() => import("./components/Page2"));
+const Page3 = lazy(() => import("./components/Page3"));
 
 function App() {
   const [route, setRoute] = useState("page1");
@@ -36,7 +37,9 @@ function App() {
       {route === "page1" ? (
         <Page1 onRouteChange={onRouteChange} />
       ) : (
-        Component && <Component onRouteChange={onRouteChange} />
+        <Suspense fallback={<Loading />}>
+          <Component onRouteChange={onRouteChange} />
+        </Suspense>
       )}
     </>
   );
