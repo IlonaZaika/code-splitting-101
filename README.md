@@ -1,5 +1,4 @@
-# code-splitting-101
-Experimenting with different approaches to implementing code splitting in a react app
+
 # **React Code Splitting 101**
 
 This repository demonstrates various approaches to implementing code splitting in a React project and explores their impact on performance. It includes four branches, each showcasing a different method of handling code splitting. Additionally, performance investigations are documented with screenshots to provide insights into the size of bundles and chunks created under each approach.
@@ -76,7 +75,7 @@ The repository includes screenshots that highlight performance differences in ea
 
 ## **How to Run the Project**
 1. Clone the repository:
-   `git clone https://github.com/IlonaZaika/code-splitting-101.git`
+   ``git clone https://github.com/IlonaZaika/code-splitting-101.git``
 2. Navigate to the project directory:
 `cd code-splitting-101`
 3. Install dependencies:
