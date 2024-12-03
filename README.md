@@ -75,7 +75,7 @@ The repository includes screenshots that highlight performance differences in ea
 
 ## **How to Run the Project**
 1. Clone the repository:
-   ``git clone https://github.com/IlonaZaika/code-splitting-101.git``
+   `git clone https://github.com/IlonaZaika/code-splitting-101.git`
 2. Navigate to the project directory:
 `cd code-splitting-101`
 3. Install dependencies:
@@ -83,9 +83,9 @@ The repository includes screenshots that highlight performance differences in ea
 4. Switch to a branch to test different approaches:
 `git checkout <branch-name>`
 5. Replace <branch-name> with one of the following:
-- no-code-splitting
-- manual-code-splitting
-- lazy
-- router
+   - no-code-splitting
+   - manual-code-splitting
+   - lazy
+   - router
 5. Start the development server:
 `npm start`
